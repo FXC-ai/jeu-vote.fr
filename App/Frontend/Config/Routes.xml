@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE xml>
+<routes>
+  <route url="/accueil/index.html" module="PageAccueil" action="index" ></route>
+  <route url="/accueil/" module="PageAccueil" action="index" ></route>
+  <route url="/politics/" module="PageAccueil" action="index"></route>
+  <route url="/" module="PageAccueil" action="index"></route>
+  
+  <route url="/presidentielle2017/" module="PresidentielleFormulaire" action="presidentielleFormulaire"></route>
+  <route url="/FormulairePresidentielle2017/" module="PresidentielleFormulaire" action="FormulairePresidentielle2017"></route>  
+  
+  <route url="/BDDFormulaire/" module="BDDFormulaire" action="index"></route>
+  <route url="/BDDFormulaire/Modif/" module="BDDFormulaire" action="Modif"></route>
+</routes>
